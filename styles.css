@@ -2,7 +2,6 @@
     margin: 0;
     font-family: 'Open Sans', sans-serif;
 }
-
 .all-h2 {
     font-weight: 700;
     font-size: 40px;
@@ -11,29 +10,26 @@
 }
 
 /* header styles */
+
 header {
     background: url(/images/banner/banner1.png);
     height: 780px;
     background-size: cover;
     text-align: right;
 }
-
 .header-div {
     padding: 216px 230px 0 845px;
 }
-
 h1 {
     font-weight: 700;
     font-size: 65px;
 }
-
 .header-des {
     font-weight: 400;
     font-size: 16px;
     color: #444343;
     padding: 24px 0px 32px 0;
 }
-
 .header-button {
     width: 160px;
     height: 64px;
@@ -44,7 +40,6 @@ h1 {
     font-weight: 600;
     font-size: 20px;
 }
-
 .header-button:hover {
     cursor: pointer;
     color: black;
@@ -57,12 +52,10 @@ h1 {
     display: flex;
     margin: 130px 230px;
 }
-
 .img-person {
     width: 569px;
     height: 723.3px;
 }
-
 .sec-1-head{
     margin: 240px 20px 0px 87px;    
 }
@@ -73,11 +66,6 @@ h1 {
     display: flex;
     gap: 16px;
 }
-
-
-
-
-
 .checkmark {
     display: inline-block;
     transform: rotate(45deg);
@@ -86,3 +74,30 @@ h1 {
     border-bottom: 2px solid #16D887;
     border-right: 2px solid #16D887;
 }
+
+/* section 2 styles */
+
+.section-2{
+    text-align: center;
+    margin: 0px 230px;
+}
+.plans{
+    display: flex;
+    gap: 24px;
+    justify-content: space-between;
+    padding-top: 34px;
+}
+h3{
+    font-weight: 700;
+font-size: 30px;
+color: #151414;
+padding: 24px 0 16px 0;
+}
+.plans-description{
+    font-weight: 500;
+font-size: 25px;
+color: #737272;
+}
+
+/* section 3 styles */
+
