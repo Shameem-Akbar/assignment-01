@@ -3,6 +3,13 @@
     font-family: 'Open Sans', sans-serif;
 }
 
+.all-h2 {
+    font-weight: 700;
+    font-size: 40px;
+    color: #151414;
+    margin: 0px 0px 24px 0px;
+}
+
 /* header styles */
 header {
     background: url(/images/banner/banner1.png);
@@ -24,7 +31,7 @@ h1 {
     font-weight: 400;
     font-size: 16px;
     color: #444343;
-    margin: 24px 0px 32px 0;
+    padding: 24px 0px 32px 0;
 }
 
 .header-button {
@@ -42,4 +49,40 @@ h1 {
     cursor: pointer;
     color: black;
     background-color: aqua;
+}
+
+/* section 1 styles */
+
+.section-1 {
+    display: flex;
+    margin: 130px 230px;
+}
+
+.img-person {
+    width: 569px;
+    height: 723.3px;
+}
+
+.sec-1-head{
+    margin: 240px 20px 0px 87px;    
+}
+.sec-1-para{
+    padding-bottom: 16px;
+}
+.tick-description{
+    display: flex;
+    gap: 16px;
+}
+
+
+
+
+
+.checkmark {
+    display: inline-block;
+    transform: rotate(45deg);
+    height: 14px;
+    width: 6px;
+    border-bottom: 2px solid #16D887;
+    border-right: 2px solid #16D887;
 }
