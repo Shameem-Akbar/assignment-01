@@ -15,7 +15,7 @@ a{
 /* header styles */
 
 header {
-    background: url(/images/banner/banner1.png);
+    background: url(images/banner/banner1.png);
     height: 780px;
     background-size: cover;
     text-align: right;
@@ -165,7 +165,7 @@ footer{
 .footer-div{
     display: flex;
     gap: 240px;
-    padding: 130px 230px;
+    padding: 130px 230px 0 230px;
 }
 .footer-h2{
     font-weight: 700;
