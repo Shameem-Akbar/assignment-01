@@ -1,12 +1,15 @@
 * {
     margin: 0;
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Work Sans', sans-serif;
 }
 .all-h2 {
     font-weight: 700;
     font-size: 40px;
     color: #151414;
     margin: 0px 0px 24px 0px;
+}
+a{
+    text-decoration: none;
 }
 
 /* header styles */
@@ -97,6 +100,26 @@ padding: 24px 0 16px 0;
     font-weight: 500;
 font-size: 25px;
 color: #737272;
+}
+
+/* section 3 styles */
+
+.section-3{
+    display: flex;
+    gap: 24px;
+    margin: 130px 230px 0 230px;
+}
+.sec-3-div{
+    margin-top: 30px;
+}
+.sec-3-para{
+    font-weight: 500;
+font-size: 20px;
+color: #444343;
+padding-right: 18px;
+}
+.sec-3-img{
+   border-radius: 8px;
 }
 
 /* section 4 styles */
